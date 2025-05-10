@@ -1,4 +1,4 @@
-# Minimalist Bank Theme
+# Minimalist Bank Theme/Simulator
 
 Minimalist Bank is a clean, professional static website theme designed for banks, financial institutions, and anyone interested in modern online banking interfaces. With a focus on clarity, trust, and usability, this template is perfect for organizations seeking a polished web presence—or for individuals and educators wanting to simulate or learn about online banking environments.
 

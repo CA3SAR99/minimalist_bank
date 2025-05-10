@@ -23,7 +23,7 @@ Minimalist Bank is a clean, professional static website theme and simulator desi
 2. **Customize:**  
    Update branding, colors, and content to fit your needs.
 3. **Deploy:**  
-   Host on your preferred local host, static site provider (GitHub Pages, Netlify, Vercel, etc.).
+   Host on your local host or a static site provider (GitHub Pages, Netlify, Vercel, etc.).
 4. **Simulate:**  
    Use the included pages to demonstrate or practice typical online banking workflows.
 

@@ -8,12 +8,11 @@ Minimalist Bank is a clean, professional static website theme designed for banks
 - Responsive layout for seamless use on all devices
 - Easily customizable color palette and typography
 - Accessible, standards-compliant HTML and CSS
-- Modular structure for quick adaptation and extension
 - Includes sample pages: Home, Accounts, Services, About, and Contact
 
 ## Use Cases
 
-- **Professional Websites:** Ideal for banks, credit unions, fintech startups, and financial service providers seeking a minimalist, trustworthy look.
+- **Professional Websites:** Ideal inspiration for banks, credit unions, fintech startups, and financial service providers seeking a minimalist, trustworthy look.
 - **Simulators & Demos:** Use as a safe, static simulator for online banking navigation—great for onboarding, training, or educational purposes.
 - **Learning Tool:** Perfect for students and instructors to explore the structure and flow of online banking solutions without handling real data.
 

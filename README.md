@@ -36,4 +36,4 @@ Minimalist Bank is a clean, professional static website theme designed for banks
 
 ---
 
-Created by CA3SAR99
+Created by CA3SAR99 

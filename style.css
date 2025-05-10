@@ -1,0 +1,470 @@
+body {
+  margin: 0;
+  font-family: 'Inter', Arial, sans-serif;
+  background: #f7f9fb;
+  color: #222;
+}
+header {
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+  padding: 1.5rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #1a237e;
+  letter-spacing: 2px;
+  padding-left: 1.5rem; /* Add this line to move logo right */
+}
+nav {
+  margin-left: auto;
+  margin-right: 2rem;
+}
+nav a {
+  color: #1a237e;
+  text-decoration: none;
+  margin: 0 1.2rem;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+nav a:hover {
+  color: #3949ab;
+}
+.hero {
+  max-width: 700px;
+  margin: 4rem auto 2rem auto;
+  text-align: center;
+}
+.hero h1 {
+  font-size: 2.8rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #1a237e;
+}
+.hero p {
+  font-size: 1.25rem;
+  color: #444;
+  margin-bottom: 2rem;
+}
+.cta-btn {
+  background: #1a237e;
+  color: #fff;
+  border: none;
+  padding: 0.9rem 2.2rem;
+  border-radius: 2rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(26,35,126,0.08);
+  transition: background 0.2s;
+}
+.cta-btn:hover {
+  background: #3949ab;
+}
+.features {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin: 3rem auto 4rem auto;
+  max-width: 900px;
+  flex-wrap: wrap;
+}
+.feature {
+  background: #fff;
+  border-radius: 1rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  padding: 2rem 1.5rem;
+  flex: 1 1 250px;
+  min-width: 220px;
+  max-width: 280px;
+  text-align: center;
+}
+.feature h3 {
+  color: #1a237e;
+  font-size: 1.2rem;
+  margin-bottom: 0.7rem;
+  font-weight: 600;
+}
+.feature p {
+  color: #555;
+  font-size: 1rem;
+}
+footer {
+  background: #fff;
+  text-align: center;
+  padding: 1.5rem 0;
+  color: #888;
+  font-size: 0.95rem;
+  border-top: 1px solid #eee;
+  margin-top: 2rem;
+}
+.login-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 60vh;
+  margin-top: 3rem;
+}
+.login-card {
+  background: #fff;
+  border-radius: 1rem;
+  box-shadow: 0 2px 12px rgba(26,35,126,0.07);
+  padding: 2.5rem 2rem 2rem 2rem;
+  max-width: 350px;
+  width: 100%;
+  text-align: center;
+}
+.login-card h2 {
+  color: #1a237e;
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+.login-card form {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 0.2rem;
+}
+.login-card label {
+  display: block;
+  text-align: left;
+  margin-bottom: 0.2rem;
+  margin-top: 0.7rem;
+  color: #222;
+  font-weight: 500;
+  font-size: 1rem;
+  width: 70%;           /* Add: match input width */
+  margin-left: auto;    /* Add: center label block */
+  margin-right: auto;   /* Add: center label block */
+}
+.login-card input {
+  width: 70%; /* Adjusted width to 70% */
+  padding: 0.7rem 1rem;
+  margin-bottom: 0.5rem;
+  border: 1px solid #e0e3eb;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  font-family: inherit;
+  background: #f7f9fb;
+  transition: border 0.2s;
+  margin-left: auto; /* Center align */
+  margin-right: auto; /* Center align */
+}
+.login-card input:focus {
+  border: 1.5px solid #1a237e;
+  outline: none;
+}
+.login-message {
+  margin-top: 1rem;
+  color: #d32f2f;
+  font-size: 1rem;
+  min-height: 1.2em;
+}
+nav .active {
+  color: #3949ab;
+  font-weight: 600;
+  border-bottom: 2px solid #3949ab;
+}
+.login-tip {
+  font-size: 0.9rem;
+  color: #555;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+.banking-section {
+  text-align: center;
+  margin: 3rem auto;
+  padding: 0 1rem;
+}
+
+.banking-section h1 {
+  font-size: 2rem;
+  color: #1a237e;
+  margin-bottom: 2rem;
+}
+
+.accounts-container {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.account-card {
+  background: #fff;
+  border-radius: 1rem;
+  box-shadow: 0 2px 12px rgba(26,35,126,0.07);
+  padding: 2rem;
+  max-width: 300px;
+  width: 100%;
+  text-align: center;
+}
+
+.account-card h2 {
+  font-size: 1.5rem;
+  color: #1a237e;
+  margin-bottom: 1rem;
+}
+
+.account-card .balance {
+  font-size: 1.2rem;
+  color: #444;
+}
+
+.iban {
+  font-size: 1rem;
+  color: #444;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.funds-input {
+  width: 80%;
+  padding: 0.5rem;
+  margin: 1rem 0;
+  border: 1px solid #e0e3eb;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  font-family: inherit;
+}
+
+.add-funds-btn {
+  background: #1a237e;
+  color: #fff;
+  border: none;
+  padding: 0.7rem 1.5rem;
+  border-radius: 2rem;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.add-funds-btn:hover {
+  background: #3949ab;
+}
+
+.services-section {
+  text-align: center;
+  margin: 3rem auto;
+  padding: 0 1rem;
+  max-width: 1200px;
+}
+
+.services-section h1 {
+  font-size: 2.5rem;
+  color: #1a237e;
+  margin-bottom: 3rem;
+}
+
+.services-container {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.service-card {
+  background: #fff;
+  border-radius: 1rem;
+  box-shadow: 0 2px 12px rgba(26,35,126,0.07);
+  padding: 2rem;
+  width: 300px;
+  text-align: left;
+}
+
+.service-card h2 {
+  color: #1a237e;
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.service-card ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.service-card li {
+  padding: 0.8rem 0;
+  color: #444;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.service-card li:last-child {
+  border-bottom: none;
+}
+
+.about-section {
+  max-width: 1000px;
+  margin: 3rem auto;
+  padding: 0 1rem;
+  text-align: center;
+}
+
+.about-section h1 {
+  font-size: 2.5rem;
+  color: #1a237e;
+  margin-bottom: 3rem;
+}
+
+.about-content {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.about-card {
+  background: #fff;
+  border-radius: 1rem;
+  box-shadow: 0 2px 12px rgba(26,35,126,0.07);
+  padding: 2rem;
+  text-align: left;
+}
+
+.about-card h2 {
+  color: #1a237e;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.about-card p {
+  color: #444;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.stats-container {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+.stat-card {
+  background: #fff;
+  border-radius: 1rem;
+  box-shadow: 0 2px 12px rgba(26,35,126,0.07);
+  padding: 1.5rem;
+  min-width: 200px;
+  text-align: center;
+}
+
+.stat-card h3 {
+  color: #1a237e;
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.stat-card p {
+  color: #444;
+  font-size: 1.1rem;
+}
+
+.contact-section {
+  max-width: 800px;
+  margin: 3rem auto;
+  padding: 0 1rem;
+}
+
+.contact-section h1 {
+  font-size: 2.5rem;
+  color: #1a237e;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.contact-card {
+  background: #fff;
+  border-radius: 1rem;
+  box-shadow: 0 2px 12px rgba(26,35,126,0.07);
+  padding: 2rem;
+}
+
+.contact-card h2 {
+  color: #1a237e;
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center; /* Center the form itself */
+}
+
+.contact-form label {
+  color: #222;
+  font-weight: 500;
+  text-align: left;      /* Left align the label text */
+  display: block;
+  width: 70%;            /* Match input width for alignment */
+  margin-left: 0;        /* Remove auto margin */
+  margin-right: 0;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 70%;
+  display: block;
+  padding: 0.7rem 1rem;
+  border: 1px solid #e0e3eb;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  font-family: inherit;
+  background: #f7f9fb;
+  margin-left: 0;        /* Remove auto margin */
+  margin-right: 0;
+}
+
+.contact-form textarea {
+  min-height: 150px;
+  resize: vertical;
+}
+
+.contact-form button {
+  align-self: center;
+  margin-top: 1rem;
+}
+
+@media (max-width: 800px) {
+  .features {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (max-width: 600px) {
+  .login-card {
+    padding: 1.5rem 1rem;
+  }
+}
+@media (max-width: 768px) {
+  .services-section h1 {
+    font-size: 2rem;
+  }
+  
+  .service-card {
+    width: 100%;
+    max-width: 350px;
+  }
+  
+  .about-section h1 {
+    font-size: 2rem;
+  }
+  
+  .about-card h2 {
+    font-size: 1.5rem;
+  }
+  
+  .stat-card {
+    min-width: 150px;
+  }
+}

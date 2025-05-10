@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Login - Minimalist Bank</title>
+  <link href="https://fonts.googleapis.com/css?family=Inter:400,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">Minimalist Bank</div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="account.html" class="active">Accounts</a>
+      <a href="services.html">Services</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+  <section class="login-section">
+    <div class="login-card">
+      <h2>Sign In to Your Account</h2>
+      <p class="login-tip">Tip: Use username <strong>"test"</strong> and password <strong>"test"</strong>.</p> <!-- Updated tip -->
+      <form id="loginForm">
+        <label for="username">Username</label>
+        <input type="text" id="username" name="username" required autocomplete="username">
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" required autocomplete="current-password">
+        <button type="submit" class="cta-btn">Login</button>
+      </form>
+      <div id="loginMessage" class="login-message"></div>
+    </div>
+  </section>
+  <footer>
+    &copy; 2025 Minimalist Bank by CA3SAR99. CC BY-NC
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
